@@ -1,0 +1,569 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope&family=Noto+Sans+JP:wght@300&family=Ubuntu&display=swap');
+*{
+  font-family: 'Manrope', sans-serif;
+font-family: 'Noto Sans JP', sans-serif;
+font-family: 'Ubuntu', sans-serif;
+}
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html,
+body {
+  width: 100%;
+  height: 100%;
+}
+body {
+  color: white;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+}
+.Middle {
+  width: 100%;
+  height: 500px;
+  color: white;
+}
+nav {
+  align-items: center;
+  height: 50px;
+  background-color: transparent;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+} 
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+nav li {
+  float: left;
+}
+nav a {
+  color: black;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+nav a:hover {
+  color: black;
+  text-decoration: underline;
+}
+.box-1 {
+  margin-top: 20px;
+  text-align: left;
+  background-image: url(Img/img1.jpg);
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 550px;
+}
+.box-1 h1 {
+  font-size: 5vw;
+  margin-top: 135px;
+  margin-left: 10px;
+}
+.box-1 h4 {
+  font-size: 16px;
+  margin-left: 10px;
+  font-weight: bold;
+}
+.haad{
+      position: relative;
+    top: 102px;
+}
+button {
+  position: absolute;
+  font-size: 20px;
+  font-weight: 400;
+  border-radius: 2px;
+  padding: 20px 40px;
+  margin-top: 100px;
+  margin-left: 10px;
+  box-sizing: border-box;
+  border-color: white;
+  color: white;
+  background-color: #054863;
+}
+button:hover {
+  position: absolute;
+  padding: 20px 40px;
+  border-radius: 0;
+  border-color: transparent;
+  font-size: 20px;
+  font-weight: 400;
+  margin-top: 100px;
+  margin-left: 10px;
+  color: white;
+  background-color: rgb(25, 92, 119);
+}
+.text {
+  width: 45%;
+  height: 800px;
+  color: black;
+  float: left;
+  background-color: #ebf2fa;
+}
+.text h1 {
+  font-size: 4vw;
+  margin-top: 250px;
+  margin-left: 30px;
+  font-weight: 600;
+}
+.text p {
+  margin-top: 10px;
+  font-size: 20px;
+  margin-left: 30px;
+}
+.box-2 {
+  background-image: url(Img/img2.png);
+  background-position: 250px;
+  background-repeat: no-repeat;
+  background-size: 400px;
+  margin-left: -100px;
+  background-color: #ebf2fa;
+  height: 800px;
+  display: flex;
+  justify-content: space-evenly;
+}
+.box-2 h1 {
+  font-size: 100px;
+  margin-top: 135px;
+  margin-left: 10px;
+}
+.box-3 {
+  background-image: url(Img/img3.jpg);
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 500px;
+  float: left;
+}
+.box-3 h1 {
+  font-size: 50px;
+  margin-top: 100px;
+  margin-left: 20px;
+}
+.box-3 p {
+  font-size: large;
+  margin-left: 20px;
+  margin-top: 10px;
+}
+.Info {
+  margin-top: 10px;
+  text-align: flex-start;
+  background-color: #191d26;
+  width: 100%;
+  height: 550px;
+  display: flex;
+  justify-content: space-between;
+}
+.Info p{
+  font-size: large;
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+}
+.Info h1 {
+  margin-top: 100px;
+  font-weight: 500;
+  display: flex;
+  flex-direction: column;
+}
+.Review {
+  width: 100%;
+  height: 1000px;
+  background-color: rgb(235, 242, 250);
+  float: left;
+  color: black;
+}
+.Review h1 {
+  margin-top: 250px;
+  margin-left: 20px;
+  font-size: 50px;
+  font-weight: 400;
+
+}
+.Review h5 {
+  margin-top: 25px;
+  margin-left: 20px;
+  font-size: 20px;
+  font-weight: 25;
+}
+.Review h6 {
+  margin-top: 150px;
+  margin-left: 20px;
+  font-size: 30px;
+  font-weight: 400;
+}
+.Review p {
+  font-size: xx-large;
+  margin-left: 20px;
+  margin-top: 10px;
+}
+.box-4 {
+  background-image: url(Img/img4.png);
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 550px;
+  float: left;
+  font-size: x-large;
+}
+.box-4 h1 {
+  font-size: 4vw;
+  font-weight: bold;
+  margin-top: 100px;
+  margin-left: 10px;
+}
+footer{
+  position: relative;
+  bottom: 0;
+  width: 100%;
+  height: 550px;
+  background-color: #054863;
+  display: inline-flex;
+  justify-content: space-evenly;
+  flex-direction: flex-start;
+}
+footer h2{
+  display: flex;
+  margin-left: -370px;
+  flex-direction: column;
+  color: white;
+  margin-top: 60px;
+}
+footer p{
+  display: flex;
+  margin-top: -150px;
+  margin-left: -370px;
+  flex-direction: column;
+  color: white;
+}
+.row {
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: row;
+  flex: wrap;
+  gap: 100px;
+}
+.container{
+  width: 500px;
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: column;
+}
+.icons{
+  display: flex;
+  justify-content: center;
+  gap: 80px;
+  padding: 10px;
+  font-size: 2rem;
+  margin-right: -550px;
+  margin-top: -200px;
+}
+.icons i{
+  color: white;
+}
+footer ul {
+  margin-inline: 30px;
+  color: white;
+  list-style: none;
+  display: block;
+  justify-content: space-between;
+  align-items: center;
+  height: 100%;
+  margin-top: -220px;
+}
+footer ul li a{
+  font-size: 20px;
+  margin-top: 30px;
+  display: flex;
+  margin-left: -220px;
+  justify-content: space-between;
+  text-decoration: underline;
+  color: white;
+}
+
+.About{
+  position: relative;
+  color: black;
+  font-size: 20px;
+  font-weight: 400;
+  margin-left: 20px;
+  margin-top: 150px;
+}
+.About h1{
+  margin-top: 100px;
+  margin-left: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+.About-1{
+  background-image: url(Img/About.jpg);
+  margin-left: -522px;
+  margin-top: 100px;
+  width: 1765px;
+  height: 750px;
+  background-repeat: no-repeat;
+  background-size: 2000px;
+  float: left;
+}
+.About p{
+  margin-left: 20px;
+  margin-top: 40px;
+  font-weight: 100;
+
+}
+.All-Products{
+  margin-top: 100px;
+  position: relative;
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: column;
+}
+.All-Products p{
+  position: relative;
+  top: 500px;
+  color: black;
+  font-weight: 100;
+  font-size: x-large;
+
+}
+.All-Products i{
+  position: relative;
+  font-size: medium;
+  top: 510px;
+  color: black;
+  font-weight: 100;
+}
+
+
+.shop h1{
+  position: relative;
+  color: black;
+  font-size: xx-large;
+  font-weight: 400;
+  margin-left: 20px;
+  margin-top: 150px;
+}
+.shop p{
+  color: black;
+  margin-left: 20px;
+  margin-top: 20px;
+}
+.product-1{
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+  margin-bottom: 60px;
+ }
+.shop-1{
+  background-image: url(Img/shop1.png);
+  background-repeat: no-repeat;
+  background-size: 500px;
+  margin-left: 40px;
+  margin-top: 30px;
+  width: 50%;
+  height: 500px;
+}
+.shop-2{
+  background-image: url(Img/shop2.png);
+  background-repeat: no-repeat;
+  background-size: 500px;
+  margin-left: 40px;
+  margin-top: 30px;
+  width: 50%;
+  height: 500px;
+
+}
+.product-2{
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+  margin-bottom: 60px;
+ }
+.shop-3 {
+  background-image: url(Img/shop3.png);
+  background-repeat: no-repeat;
+  background-size: 500px;
+  margin-left: 40px;
+  margin-top: 30px;
+  width: 50%;
+  height: 500px;
+}
+.shop-4{
+  background-image: url(Img/shop4.png);
+  background-repeat: no-repeat;
+  background-size: 500px;
+  margin-left: 40px;
+  margin-top: 30px;
+  width: 50%;
+  height: 500px;
+}
+.product-3{
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+  margin-bottom: 200px;
+}
+.shop-5 {
+  background-image: url(Img/shop5.png);
+  background-repeat: no-repeat;
+  background-size: 500px;
+  margin-left: 40px;
+  margin-top: 30px;
+  width: 50%;
+  height: 500px;
+}
+.shop-6{
+  background-image: url(Img/shop6.png);
+  background-repeat: no-repeat;
+  background-size: 500px;
+  margin-left: 40px;
+  margin-top: 30px;
+  width: 50%;
+  height: 500px;
+}
+.arrow {
+  border: solid black;
+  border-width: 0 3px 3px 0 ;
+  display: inline-block;
+  padding: 3px;
+}
+.right {
+  transform: rotate(-45deg);
+  -webkit-transform: rotate(-45deg);
+}
+
+.left {
+  transform: rotate(135deg);
+  -webkit-transform: rotate(135deg);
+}
+.page{
+  margin-bottom: 10px;
+  margin-left: 500px;
+  margin-top: -250px;
+  display: block;
+  justify-content: space-around;
+}
+.page button{
+  position: relative;
+  align-items: center;
+  font-size: 15px;
+  font-weight: bold;
+  margin-left: 10px;  
+  color: black;
+  border-color: transparent;
+  background-color: transparent;
+}
+.product-4{
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+  margin-bottom: 60px;
+}
+.shop-7 {
+  background-image: url(Img/shop7.png);
+  background-repeat: no-repeat;
+  background-size: 500px;
+  margin-left: 40px;
+  margin-top: 30px;
+  width: 50%;
+  height: 500px;
+}
+.shop-8{
+  background-image: url(Img/shop8.png);
+  background-repeat: no-repeat;
+  background-size: 500px;
+  margin-left: 40px;
+  margin-top: 30px;
+  width: 50%;
+  height: 500px;
+}
+.product-5{
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  margin-bottom: 200px;
+}
+.shop-9 {
+  background-image: url(Img/shop9.png);
+  background-repeat: no-repeat;
+  background-size: 500px;
+  margin-left: 40px;
+  margin-top: 30px;
+  width: 50%;
+  height: 500px;
+}
+.Shipping{
+  width: 100%;
+  height: 1100px;
+  color: black;
+  float: left;
+}
+.Shipping h1 {
+  font-size: 4vw;
+  margin-top: 220px;
+  margin-left: 30px;
+
+  font-weight: 600;
+}
+.Shipping h3 {
+  font-size: 3vw;
+  margin-bottom: 30px;
+  margin-top: 100px;
+  margin-left: 30px;
+  font-weight: 600;
+}
+
+.Shipping p {
+  margin-top: 10px;
+  font-weight: 10;
+  font-size: medium;
+  margin-left: 30px;
+  margin-bottom: 40px;
+}
+.Store {
+  width: 100%;
+  height: 1100px;
+  color: black;
+  float: left;
+}
+.Store h1 {
+  font-size: 4vw;
+  margin-top: 220px;
+  margin-left: 30px;
+
+  font-weight: 600;
+}
+.Store  h3 {
+  font-size: 3vw;
+  margin-bottom: 30px;
+  margin-top: 100px;
+  margin-left: 30px;
+  font-weight: 600;
+}
+
+.Store  p {
+  margin-top: 10px;
+  font-weight: 10;
+  font-size: medium;
+  margin-left: 30px;
+  margin-bottom: 40px;
+}
+.Method {
+  width: 100%;
+  height: 300px;
+  color: black;
+  float: left;
+}
+.Method h3{
+  font-size: 3vw;
+  margin-bottom: 30px;
+  margin-top: 50px;
+  margin-left: 30px;
+  font-weight: 600;
+}
+.Method  ul li{
+  font-weight: 10;
+  font-size: medium;
+  margin-left: 70px;
+}
